@@ -1,0 +1,34 @@
+.cards-dic {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 0.5rem;
+    margin-left: 3rem;
+    margin-left: 3rem;
+}
+
+    .cards-dic .card-select h3 {
+        display: flex;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #003893;
+        background: #B6D2FD;
+    }
+    .cards-dic .card-d h3 {
+        display: flex;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #003893;
+        background: var(--Full-white, #FFF);
+    }

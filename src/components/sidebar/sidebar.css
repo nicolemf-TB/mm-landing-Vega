@@ -1,0 +1,208 @@
+.sidebar {
+        background-color: #F8F8F8;
+        margin-top: 5.8rem;
+        margin-left: 3rem;
+        display: inline-flex;
+        padding: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        /* gap: 2rem; */
+    }
+    .sidebar h4 {
+        color: #47484A;
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+        border-bottom: solid 1px var(--neutral_900);
+    }
+
+    .sidebar h5 {
+        color: #47484A;
+        font-feature-settings: 'liga' off, 'clig' off;
+        /* H5 */
+        font-family: "Open Sans";
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.125rem; /* 150% */
+        text-transform: uppercase;
+    }
+    .sidebar .buttons {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .sidebar .buttons button {   
+        display: flex;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.5rem;
+        border: 1px solid #003893;
+        color: #003893;
+    }
+
+    .sidebar .buttons .active {
+        border-radius: 0.5rem;
+        border: 1px solid #1C315C;
+        background: #B6D2FD;
+        height: 2.5rem;
+        padding: 0.5rem 1rem;
+        height: 2.5rem;
+    }
+
+    .sidebar .section-side {
+        margin-bottom: 1.5rem;
+    }
+
+    .filter-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .view-m {
+        color: #003893;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        margin-top: 0.56rem;
+        margin-right: 0.25rem;
+        margin-left: 0.35rem;
+    }
+
+    .chevron-up {
+        position: absolute;
+        /* top: 26.6rem;
+        right: 13rem; */
+    }
+
+    .filters-icon{
+        display: flex;
+        /* align-items: center; */
+        gap: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .section-filter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .button-group {
+        display: flex;
+        height: 2.5rem;
+        padding: 0.625rem 1rem;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 3.125rem;
+        border: 1px solid #003893;
+        background: var(--Full-white, #FFF);
+        box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .button-group h6 {
+        color: #003893;
+        font-feature-settings: 'liga' off, 'clig' off;  
+        /* H6 */
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.125rem; /* 128.571% */
+    }
+
+
+    
+
+    /* checkboxes styles */
+
+
+
+    input[type="checkbox"] {
+        /* Add if not using autoprefixer */
+        -webkit-appearance: none;
+        appearance: none;
+        /* For iOS < 15 to remove gradient background */
+        background-color: #fff;
+        /* Not removed via appearance */
+        margin: 0;
+      }
+
+      input[type="checkbox"] {
+        appearance: none;
+        background-color: #fff;
+        margin: 3px;
+        font: inherit;
+        color: currentColor;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 0.1875rem;
+        border: 1px solid #868686;
+        background: var(--background-1, #FFF);
+      }
+
+      .form-control {
+        gap: 0.5rem;
+        display:flex;
+      }
+
+      span {
+        color: #47484A;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.3125rem;
+      }
+      
+      .form-control + .form-control {
+        display: flex;
+        align-items: center;
+      }
+
+      input[type="checkbox"] {
+        /* ...existing styles */  
+        display: flex;
+        place-content: center;
+      }
+
+      input[type="checkbox"] {
+        /* ...existing styles */
+        display: flex;
+        place-content: center;
+      }
+      
+      input[type="checkbox"]::before {
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em var(--form-control-color);
+        border-radius: 0.1875rem;
+        border: 1px solid var(--background-divider, rgba(17, 20, 24, 0.15));
+        background: var(--intent-primary-3, #2D72D2);
+
+        /* _button-shadow */
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+
+      }
+      
+      input[type="checkbox"]:checked::before {
+        transform: scale(1);
+      }

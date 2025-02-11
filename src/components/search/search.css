@@ -1,0 +1,71 @@
+.search-bar {
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    justify-content: space-between;
+
+
+    }
+    .search-bar input {
+    flex-grow: 1;
+    padding: 0rem 1.5rem;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 6.25rem;
+    border: 1px solid var(--neutral_200, #868686);
+    background: var(--Full-white, #FFF);
+    margin-left: 3rem;
+    /* Sombra modal */
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
+    color: var(--neutral_400, #747474 );
+    }
+    
+    .search-bar button {
+    color: var(--Full-white, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity: 0.6;
+    background-color: var(--brand_500,#003893);
+
+    /* Sombra modal */
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+    .main-content {
+    display: flex;
+    gap: 16px;
+    }
+    .sidebar {
+    width: 25%;
+    background-color: var(--Full-white, #FFF);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    }
+    .sidebar .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    }
+    .sidebar .buttons button {
+    
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    }
+
+    .fa-search {
+        position: absolute;
+        top: 26.6rem;
+        right: 13rem;
+    }

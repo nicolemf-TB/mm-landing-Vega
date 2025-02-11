@@ -1,0 +1,68 @@
+
+.novedades {
+    margin-bottom: 24px;
+    background: var(--brand_100, #F3F8FF);
+    color: #47484A;
+    font-feature-settings: 'liga' off, 'clig' off;
+    margin-left: 2rem;
+    
+}
+    .novedades h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    
+    .novedades .cards {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+    .novedades .card {
+        background-color:var(--Full-white, #FFF);
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .novedades .card img {
+        width: 2.5rem;
+        height: 2.5rem;
+        /* margin-bottom: 8px; */
+    }
+    .novedades .card h3 {
+        color: var(--brand_700, #003893) ;
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem; /* 142.857% */
+        letter-spacing: -0.0125rem;
+    }
+    .p-small {
+        color: #47484A;
+        margin-bottom: 4px;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.125rem; 
+    }
+
+    .p-regular{
+        font-family: "Open Sans";
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.3125rem;
+    }
+    .novedades .card p-regular{
+        color: #374151;
+    }
+    .novedades .view-all {
+        text-align: right;
+    }
+    .novedades .view-all a {
+        color: #2563eb;
+        text-decoration: none;
+        align-items: center;
+        gap: 0.25rem;
+    }

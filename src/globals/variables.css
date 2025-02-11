@@ -1,0 +1,52 @@
+
+:root{
+    /* Spacing */
+    
+    /** Colors **/
+    /* Neutrals */
+    --neutral_900: #2F343C;
+    --neutral_800: #47484a;
+    --neutral_800: #747474;
+    --neutral_200: #868686;
+    --neutral_100: #F8F8F8;
+    
+    /* Brand */
+    --brand_900: #1C315C; 
+    --brand_500: #003893; 
+    --brand_200: #B6D2FD;
+    --brand_300: #B6D2FD;
+    --brand_100: #F3F8FF; 
+    
+    /* Accent */
+    --accent_000: #003893; 
+
+    /* Tags */
+    
+    
+    /* Semanticos */
+    --status_success_500: #33A93E; 
+    --status_success_300: #5BCD66; 
+    --status_warning_500: #DB7900; 
+    --status_critical_500: #D62C42; 
+    --action_500: #c9337d; 
+
+    /* Hover */
+    --hover_001: var(--grey_500); 
+    --hover_002: #40495c; 
+    
+    /* Fonts */
+    --regular: "OpenSans";
+    --semibold: "OpenSans-SemiBold";
+    --bold: "OpenSans-Bold";
+
+
+    /* Font size */
+    --font-size-s: 1.2rem;
+    --font-size-m: 1.4rem;
+    --font-size-xxl: 3.6rem;
+    
+    /* Line height */
+    --line-height-xs: 1.4rem;
+    --line-height-s: 1.8rem;
+    --line-height-m: 2.1rem;
+}

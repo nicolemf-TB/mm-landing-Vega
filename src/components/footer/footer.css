@@ -1,0 +1,14 @@
+.footer {
+    background: #F3F8FF;
+    display: flex;
+    width: 86.875rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-shrink: 0;
+}
+
+.footer-link {
+    margin-left: 0.25rem;
+}
