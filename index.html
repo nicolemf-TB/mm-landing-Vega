@@ -75,8 +75,9 @@
     </div>
     <!-- Search Bar -->
      <div class="search-bar">
-        <img src="./src/assets/icons/Search Icon.svg" class="fa-search" alt="">
         <input placeholder="Busca por cualquier término" type="text"/>
+        <img src="./src/assets/icons/Search Icon.svg" class="fa-search" alt="">
+        <img class="metasearch-close" src="" alt="">
         <button>
             Buscar resultados
         </button>
@@ -187,6 +188,9 @@
                         <label class="form-control">
                             <input type="checkbox" name="checkbox">
                             <span>Asegurador</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 5.5C11.7199 5.5 11.4699 5.61 11.2899 5.79L6.99994 10.09L4.70994 7.79C4.52164 7.6017 4.26624 7.49591 3.99994 7.49591C3.73364 7.49591 3.47824 7.6017 3.28994 7.79C3.10164 7.9783 2.99585 8.2337 2.99585 8.5C2.99585 8.7663 3.10164 9.0217 3.28994 9.21L6.28994 12.21C6.46994 12.39 6.71994 12.5 6.99994 12.5C7.27994 12.5 7.52994 12.39 7.70994 12.21L12.7099 7.21C12.8495 7.06957 12.9444 6.89097 12.9826 6.69672C13.0208 6.50246 13.0007 6.30123 12.9248 6.11838C12.8489 5.93554 12.7206 5.77924 12.556 5.6692C12.3914 5.55916 12.1979 5.50029 11.9999 5.5Z" fill="white"/>
+                            </svg>
                         </label>
                         <label class="form-control">
                             <input type="checkbox">
@@ -266,47 +270,176 @@
                 <!-- Content -->
                 <!-- <div class="content">
                     <div class="controls">
-                        <div>
+                        <div class="dropdown-filters">
                             <span>Ordenar por</span>
-                            <i class="fas fa-chevron-down"></i>
+                            <img class="dropdown-filters" src="./src/assets/icons/Chevron Down.svg">
                         </div>
-                        <div>
-                            <span>Agrupar por</span>
-                            <i class="fas fa-chevron-down"></i>
+                        <div class="dropdown-filters">
+                            <span>Agrupar por
+                                <img src="./src/assets/icons/Chevron Down.svg">
+                            </span>                    
                         </div>
                     </div>
                     <div class="card">
-                        <div class="header">
+                        <div class="header-content">
                             <div class="title">
-                                <i class="fas fa-folder"></i>
-                                <span>Aplicación clientes</span>
-                                <span class="badge">Clientes</span>
+                                <img src="./src/assets/icons/FolderOpen.svg">
+                                <h4>Aplicación clientes</h4>
+                                <span class="tag-client">Clientes</span>
                             </div>
                             <a href="#">Solicitar acceso</a>
                         </div>
-                        <p>20/12/2024 19:00</p>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Tick (2).svg">
+                        </p>
+                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
                     </div>
                     <div class="card">
-                        <div class="header">
+                        <div class="header-content">
                             <div class="title">
-                                <i class="fas fa-database"></i>
-                                <span>Dataset asegurador</span>
-                                <span class="badge">Asegurador</span>
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
                             </div>
                         </div>
-                        <p>20/12/2024 19:00</p>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                    </div>
+                    <div class="card">
+                        <div class="header-content">
+                            <div class="title">
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
+                            </div>
+                        </div>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                    </div>
+                    <div class="card">
+                        <div class="header-content">
+                            <div class="title">
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
+                            </div>
+                        </div>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                    </div>
+                    <div class="card">
+                        <div class="header-content">
+                            <div class="title">
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
+                            </div>
+                        </div>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                    </div>
+                    <div class="card">
+                        <div class="header-content">
+                            <div class="title">
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
+                            </div>
+                        </div>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                    </div>
+                    <div class="card">
+                        <div class="header-content">
+                            <div class="title">
+                                <img src="./src/assets/icons/Documento.svg">
+                                <h4>Dataset asegurador</h4>
+                                    <img src="./src/assets/icons/Star.svg">
+                                <span class="tag-insurer">Asegurador</span>
+                            </div>
+                        </div>
+                        <p>20/12/2024 19:00
+                            <img src="./src/assets/icons/Badge.svg">
+                        </p>
+                        </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
                     </div>
                 </div>
+            </div> -->
+            <!-- Content por dominio-->
+            <div class="content-dom">
+                <div class="controls">
+                    <div>
+                        <span>Ordenar por</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div>
+                        <span>Agrupar por</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <h2>Clientes</h2>
+                <div class="card">
+                    <div class="header-content">
+                        <div class="title">
+                            <img src="./src/assets/icons/FolderOpen.svg">
+                            <h4>Aplicación clientes</h4>
+                            <span class="tag-client">Clientes</span>
+                        </div>
+                        <a href="#">Solicitar acceso</a>
+                    </div>
+                    <p>20/12/2024 19:00
+                        <img src="./src/assets/icons/Tick (2).svg">
+                    </p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                </div>
+                <h2>Ecosistema</h2>
+                <div class="card">
+                    <div class="header-content">
+                        <div class="title">
+                            <img src="./src/assets/icons/Documento.svg">
+                            <h4>Dataset asegurador</h4>
+                                <img src="./src/assets/icons/Star.svg">
+                            <span class="tag-insurer">Asegurador</span>
+                        </div>
+                    </div>
+                    <p>20/12/2024 19:00
+                        <img src="./src/assets/icons/Badge.svg">
+                    </p>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
+                </div>
             </div>
-    </div> -->
-    <!-- <div class="footer">
-        <a class="footer-link" href="#">Estadísticas generales<img src="./src/assets/icons/Share icon.svg"></a>
-        <a class="footer-link" href="#">Comunidad Vega<img src="./src/assets/icons/Share icon.svg"></a>
-        <a class="footer-link" href="#">Soporte<img src="./src/assets/icons/Share icon.svg"></a>
-
-    </div> -->
+        </div>
+        <div class="footer">
+            <a class="footer-link" href="#">Estadísticas generales <img src="./src/assets/icons/Share icon.svg"></a>
+            <a class="footer-link" href="#">Comunidad Vega <img src="./src/assets/icons/Share icon.svg"></a>
+            <a class="footer-link" href="#">Soporte <img src="./src/assets/icons/Share icon.svg"></a>
+    
+        </div>
+    </div>
 </div>
 </body>
 </html>

@@ -1,29 +1,33 @@
-.content {
+.content-dom {
     width: 75%;
     margin-top: 3.5rem;
     }
-    .content .controls {
+    .content-dom h2 {
+        margin-top: 2.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .content-dom .controls {
         display: flex;
         gap: 2.5rem;
         justify-content: flex-end;
         margin-bottom: 16px;
     }
 
-    .content .controls span {
+    .content-dom .controls span {
         font-size: 0.875rem;
         color: #003893;
     }
 
-    .content .controls .dropdown-filters {   
+    .content-dom .controls .dropdown-filters {   
         margin-left: 4px;
     }
 
-    .content .controls img {   
+    .content-dom .controls img {   
         font-size: 14px;
         margin-left: 4px;
     }
 
-    .content .card {
+    .content-dom .card {
         display: flex;
         padding: 1rem 1.5rem;
         flex-direction: column;
@@ -32,23 +36,23 @@
         align-self: stretch;
         border: 1px solid #868686;
     }
-    .content .card .header-content {
+    .content-dom .card .header-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
         align-self: stretch;
     }
-    .content .card .header-content .title {
+    .content-dom .card .header-content .title {
         display: flex;
         align-items: center;
         gap: 8px;
     }
-    .content .card .header-content .title img {
+    .content-dom .card .header-content .title img {
         font-size: 16px;
         color: #6b7280;
     }
     
-    .content .card .header-content .title .tag-client {
+    .content-dom .card .header-content .title .tag-client {
         border-radius: 0.1875rem;
         background: #147EB3;    
         color: var(--text-on-intent, #FFF);
@@ -61,7 +65,7 @@
         align-items: center;
         gap: 0.25rem;
     }
-    .content .card .header-content .title .tag-insurer {
+    .content-dom .card .header-content .title .tag-insurer {
         border-radius: 0.1875rem;
         background: #007067;    
         color: var(--text-on-intent, #FFF);
@@ -74,7 +78,7 @@
         align-items: center;
         gap: 0.25rem;
     }
-    .content .card .header-content a {
+    .content-dom .card .header-content a {
         color: #003893;
         text-decoration: none;
         font-family: "Open Sans";
@@ -83,7 +87,7 @@
         font-weight: 400;
         line-height: 1.3125rem; 
     }
-    .content .card p {
+    .content-dom .card p {
         font-size: 14px;
         color: #6b7280;
         margin-bottom: 4px;
