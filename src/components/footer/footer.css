@@ -15,6 +15,11 @@
 
 .footer-link img {
     margin-left: 0.25rem;
-    margin-top: 0.25rem;
 }
 
+.fa-share {
+    position: absolute;
+    margin-left: 0.25rem;
+    width: 1rem;
+    height: 1rem;   
+}

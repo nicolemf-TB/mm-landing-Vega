@@ -82,8 +82,14 @@
 
     .chevron-up {
         position: absolute;
+        margin-left: 0.25rem;
         /* top: 26.6rem;
         right: 13rem; */
+    }
+
+    .fa-chevron-down {
+        position: absolute;
+        margin-left: 0.25rem;
     }
 
     .filters-icon{
