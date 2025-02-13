@@ -17,7 +17,6 @@
     border-radius: 6.25rem;
     border: 1px solid var(--neutral_200, #868686);
     background: var(--Full-white, #FFF);
-    margin-left: 3rem;
     /* Sombra modal */
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
     color: var(--neutral_400, #747474 );
