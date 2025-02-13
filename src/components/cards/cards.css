@@ -4,7 +4,6 @@
     background: var(--brand_100, #F3F8FF);
     color: #47484A;
     font-feature-settings: 'liga' off, 'clig' off;
-    margin-left: 2rem;
     
 }
     .novedades h2 {

@@ -75,14 +75,17 @@
     </div>
     <!-- Search Bar -->
      <div class="search-bar">
-        <input placeholder="Busca por cualquier término" type="text"/>
-            <img src="./src/assets/icons/Search Icon.svg" class="fa-search" alt="">
+        <div class="search-input">
+            <img class="fa-search"  src="./src/assets/icons/Search Icon.svg" alt="">
+            <input placeholder="Busca por cualquier término" type="text"/>
             <img class="metasearch-close" src="" alt="">
+        </div>
         <button>
             Buscar resultados
         </button>
     </div>
-    <div class="cards-dic">
+    <!-- CARDS DICCIONARIO  -->
+    <!-- <div class="cards-dic">
         <div class="card-select">
             <h3>A</h3>
         </div>
@@ -161,11 +164,11 @@
         <div class="card-d">
             <h3>Z</h3>
         </div>
-    </div>
+    </div> -->
     <!-- Sidebar and Content -->
      <div class="main-content">
         <!-- Sidebar -->
-         <div class="sidebar">
+         <!-- <div class="sidebar">
             <div class="section-side">
                 <h4>BUSCAR EN</h4>
                 <div class="buttons">
@@ -260,6 +263,116 @@
                             <span>En desarrollo</span>
                             <img class="filters-icon" src="./src/assets/icons/Code.svg" alt="">
                         </label>
+                        <div class="button-group">
+                            <h6>Limpiar filtro</h6>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div> -->
+        <!-- SIDE BAR NOTIFICACIONES  -->
+        <div class="sidebar">
+            <div class="section-side">
+            </div>
+            <div class="section">
+                <div class="section-side">
+                    <h4>FILTRAR POR</h4>
+                </div>
+                <div class="section-filter">
+                    <div class="filter-group">
+                        <h5>DOMINIO</h5>
+                        <label class="form-control">
+                            <input type="checkbox" name="checkbox">
+                            <span>Asegurador</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 5.5C11.7199 5.5 11.4699 5.61 11.2899 5.79L6.99994 10.09L4.70994 7.79C4.52164 7.6017 4.26624 7.49591 3.99994 7.49591C3.73364 7.49591 3.47824 7.6017 3.28994 7.79C3.10164 7.9783 2.99585 8.2337 2.99585 8.5C2.99585 8.7663 3.10164 9.0217 3.28994 9.21L6.28994 12.21C6.46994 12.39 6.71994 12.5 6.99994 12.5C7.27994 12.5 7.52994 12.39 7.70994 12.21L12.7099 7.21C12.8495 7.06957 12.9444 6.89097 12.9826 6.69672C13.0208 6.50246 13.0007 6.30123 12.9248 6.11838C12.8489 5.93554 12.7206 5.77924 12.556 5.6692C12.3914 5.55916 12.1979 5.50029 11.9999 5.5Z" fill="white"/>
+                            </svg>
+                        </label>
+                        <label class="form-control">
+                            <input type="checkbox">
+                            <span>Auditoría</span>
+                        </label>
+                        <label class="form-control">
+                            <input type="checkbox">
+                            <span>Clientes</span>
+                        </label>
+                        <div class="view-m" href="#">
+                            Ver menos
+                            <img class="chevron-up"src="./src/assets/icons/Chevron Up.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div class="filter-group ">
+                        <h5>TIPOS DE NOTICIA</h5>
+                        <label class="form-control">
+                            <input type="checkbox">
+                            <span>Novedades de Vega</span>
+                        </label>
+                        <label class="form-control">
+                            <input type="checkbox">
+                            <span>Alertas</span>
+                        </label>
+                        <label class="form-control">
+                            <input type="checkbox">
+                            <span>Suscripciones</span>
+                        </label>
+                    </div>
+                    <div class="filter-group ">
+                        <h5>FECHA</h5>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Enero 2025</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Diciembre 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Noviembre 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Octubre 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Septiembre 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Agosto 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Julio 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Junio 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Mayo 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Abril 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Marzo 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Febrero 2024</span>
+                        </label>
+                        <label class="form-control">
+                            <input class="radio-date" type="radio">
+                            <span>Enero 2024</span>
+                        </label>
+                    </div>
+                    <div class="filter-group">
                         <div class="button-group">
                             <h6>Limpiar filtro</h6>
                         </div>

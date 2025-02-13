@@ -1,12 +1,21 @@
+.main-content {
+    display: flex;
+    gap: 16px;
+
+    margin-right: 3rem;
+}
+
 .content {
     width: 75%;
     margin-top: 3.5rem;
+    margin-left: 2.5rem;
     }
     .content .controls {
         display: flex;
         gap: 2.5rem;
         justify-content: flex-end;
         margin-bottom: 16px;
+        margin-right: 1.5rem;
     }
 
     .content .controls span {

@@ -1,13 +1,15 @@
 .search-bar {
     display: flex;
-    margin-bottom: 24px;
     margin-top: 24px;
-    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: static;
+    /* padding: 3rem; */
     justify-content: space-between;
-
+    gap: 1.5rem;
 
     }
-    .search-bar input {
+    .search-input input {
     flex-grow: 1;
     padding: 0rem 1.5rem;
     font-size: 16px;
@@ -35,11 +37,6 @@
     /* Sombra modal */
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
     }
-    .main-content {
-    display: flex;
-    gap: 16px;
-    padding: 3rem;
-    }
     .sidebar {
     width: 25%;
     background-color: var(--Full-white, #FFF);
@@ -66,9 +63,16 @@
     font-size: 14px;
     }
 
-    .fa-search {
-        position: absolute;
-        top: 39.6rem;
-        right: 13rem;
+    .search-input {
+        display: flex;
+        flex-grow: 2;
+        position: relative;
     }
 
+    .search-bar {
+        .fa-search {
+            position: absolute;
+            top: 0.7rem;
+            right: 1.6rem;
+        }
+    }

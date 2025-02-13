@@ -3,7 +3,6 @@
     gap: 16px;
     border-bottom: 1px solid #1C315C;
     /* margin-bottom: 24px; */
-    margin-left: 3rem;
     background-color: var(--brand_100);
     }
     .tabs button {
@@ -34,6 +33,7 @@
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
+    margin-left: 3rem;
     width: 8.1875rem;
     height: 2.5rem;
     }
