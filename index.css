@@ -17,3 +17,5 @@
 @import url('./src/components/tabs/tabs.css');
 @import url('./src/components/content/content.css');
 @import url('./src/components/content-dom/content-dom.css');
+@import url('./src/components/content-data/content-data.css');
+@import url('./src/components/notifications/notifications.css');
