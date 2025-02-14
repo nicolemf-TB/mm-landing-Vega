@@ -5,7 +5,7 @@
     /* margin-bottom: 24px; */
     background-color: var(--brand_100);
     }
-    .tabs button {
+    .tabs .tabs-button {
     padding: 8px 16px;
     border: none;
     background: none;
@@ -16,24 +16,31 @@
     background-color: var(--brand_100, #F3F8FF); ; 
     cursor: pointer;
     color: #003893;
-    font-feature-settings: 'liga' off, 'clig' off;
     font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 700;
-
+    font-family: "Opensans-bold";
     }
+
+    .tabs .tabs-button:hover {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        border-top: 1px solid #1C315C;
+        border-right: 1px solid #1C315C;
+        border-left: 1px solid #1C315C;
+        background: #EBEBEB;
+        box-shadow: 2px -6px 16px 0px rgba(28, 49, 92, 0.08);
+    }
+
     .tabs .active {
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-    border-top: 1px solid #1C315C;
-    border-right: 1px solid #1C315C;
-    border-left: 1px solid #1C315C;
-    background: #FFF;
-    box-shadow: 2px -6px 16px 0px rgba(28, 49, 92, 0.08);
-    font-family: "Open Sans";
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 700;
-    margin-left: 3rem;
-    width: 8.1875rem;
-    height: 2.5rem;
+        padding: 8px 16px;
+        border: none;
+        background: none;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        border-top: 1px solid #1C315C;
+        border-right: 1px solid #1C315C;
+        border-left: 1px solid #1C315C;
+        background: #FFF;
+        box-shadow: 2px -6px 16px 0px rgba(28, 49, 92, 0.08);
+        font-size: 0.875rem;
+        font-family: "OpenSans-Bold";
+        margin-left: 3rem;
+        width: 8.1875rem;
     }

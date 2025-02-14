@@ -18,8 +18,9 @@
                 <h1>¡Hola, Francisco!</h1>
             </div>
             <div class="icons">
-                <img src="./src/assets/icons/Notificaciones.svg" alt="">
-                <img src="./src/assets/icons/Key.svg" alt="">
+                <img class="not-icon" src="./src/assets/icons/Notificaciones.svg" alt="">
+                <!-- Key con hover -->
+                <img class="not-key"src="./src/assets/icons/keyhover.svg" alt="">
             </div>
         </div>
         <!-- Novedades -->
@@ -65,11 +66,11 @@
             <img src="./src/assets/icons/Vega Landing Folder Close.svg" alt="">
             Archivos
         </button>
-        <button>
+        <button class="tabs-button">
             <img src="./src/assets/icons/Data Lineage Vega.svg" alt="">
             Ontología
         </button>
-        <button>
+        <button class="tabs-button">
             <img src="./src/assets/icons/Manual.svg" alt="">
             Diccionario</button>
     </div>
@@ -84,8 +85,19 @@
             Buscar resultados
         </button>
     </div>
+    <!-- Button deshabilitado -->
+    <!-- <div class="search-bar">
+        <div class="search-input">
+            <img class="fa-search"  src="./src/assets/icons/Search Icon.svg" alt="">
+            <input placeholder="Busca por cualquier término" type="text"/>
+            <img class="metasearch-close" src="" alt="">
+        </div>
+        <button>
+            Buscar resultados
+        </button>
+    </div> -->
     <!-- CARDS DICCIONARIO  -->
-    <!-- <div class="cards-dic">
+    <div class="cards-dic">
         <div class="card-select">
             <h3>A</h3>
         </div>
@@ -164,11 +176,11 @@
         <div class="card-d">
             <h3>Z</h3>
         </div>
-    </div> -->
+    </div>
     <!-- Sidebar and Content -->
      <div class="main-content">
         <!-- Sidebar -->
-         <div class="sidebar">
+         <!-- <div class="sidebar">
             <div class="section-side">
                 <h4>BUSCAR EN</h4>
                 <div class="buttons">
@@ -250,8 +262,8 @@
                         <h5>ESTADO</h5>
                         <label class="form-control">
                             <input type="checkbox">
-                            <span>Válidado por dominiio y con garantía de servicio</span>
-                                <img class="filters-icon" src="./src/assets/icons/Badge.svg" alt="">
+                            <span>Válidado por dominio y con garantía de servicio</span>
+                                <img class="icon-badge-filters" src="./src/assets/icons/Badge.svg" alt="">
                         </label>
                         <label class="form-control">
                             <input type="checkbox">
@@ -263,15 +275,15 @@
                             <span>En desarrollo</span>
                             <img class="filters-icon" src="./src/assets/icons/Code.svg" alt="">
                         </label>
-                        <div class="button-group">
+                        <button class="button-group">
                             <h6>Limpiar filtro</h6>
-                        </div>
+                        </button>
                 </div>
             </div>
             </div>
-        </div>
+        </div> -->
         <!-- SIDE BAR NOTIFICACIONES  -->
-        <!-- <div class="sidebar">
+        <div class="sidebar">
             <div class="section-side">
             </div>
             <div class="section">
@@ -379,17 +391,17 @@
                 </div>
             </div>
             </div>
-        </div> -->
+        </div>
                 <!-- Content -->
                 <!-- <div class="content">
                     <div class="controls">
                         <div class="dropdown-filters">
                             <span>Ordenar por</span>
-                            <img class="dropdown-filters" src="./src/assets/icons/Chevron Down.svg">
+                            <img class="fa-chevron-down"  src="./src/assets/icons/Chevron Down.svg">
                         </div>
                         <div class="dropdown-filters">
                             <span>Agrupar por
-                                <img src="./src/assets/icons/Chevron Down.svg">
+                                <img class="fa-chevron-down"  src="./src/assets/icons/Chevron Down.svg">
                             </span>                    
                         </div>
                     </div>
@@ -403,7 +415,7 @@
                             <a href="#">Solicitar acceso</a>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Tick (2).svg">
+                            <img class="icon-content" src="./src/assets/icons/Tick (2).svg">
                         </p>
                         
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -418,7 +430,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Badge.svg">
+                            <img class="icon-content" src="./src/assets/icons/Badge.svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -432,7 +444,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Code.svg">
+                            <img class="icon-content" src="./src/assets/icons/Code.svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -446,7 +458,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Code.svg">
+                            <img class="icon-content" src="./src/assets/icons/Code.svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -461,7 +473,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Badge.svg">
+                            <img class="icon-content" src="./src/assets/icons/Badge.svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -476,7 +488,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Tick (1).svg">
+                            <img class="icon-content" src="./src/assets/icons/Tick (1).svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -491,7 +503,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Tick (1).svg">
+                            <img class="icon-content" src="./src/assets/icons/Tick (1).svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -506,7 +518,7 @@
                             </div>
                         </div>
                         <p>20/12/2024 19:00
-                            <img src="./src/assets/icons/Tick (1).svg">
+                            <img class="icon-content" src="./src/assets/icons/Tick (1).svg">
                         </p>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
@@ -518,11 +530,11 @@
                 <div class="controls">
                     <div class="dropdown-filters">
                         <span>Ordenar por</span>
-                        <img class="dropdown-filters" src="./src/assets/icons/Chevron Down.svg">
+                        <img class="fa-chevron-down"  src="./src/assets/icons/Chevron Down.svg">
                     </div>
                     <div class="dropdown-filters">
                         <span>Agrupar por
-                            <img src="./src/assets/icons/Chevron Down.svg">
+                            <img class="fa-chevron-down" src="./src/assets/icons/Chevron Down.svg">
                         </span>                    
                     </div>
                 </div>
@@ -558,17 +570,17 @@
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nibh lectus. Nullam mollismauris id tellus condimentum sodales. Nullam aliquam fringilla pharetra. Quisque convallisnibh elit, et malesuada massa ullamcorper ut.</p>
                 </div>
-            </div> -->           
+            </div>          -->
             <!-- Content por datos-->
             <!-- <div class="content-data">
                 <div class="controls">
                     <div class="dropdown-filters">
                         <span>Ordenar por</span>
-                        <img class="dropdown-filters" src="./src/assets/icons/Chevron Down.svg">
+                        <img class="fa-chevron-down"  src="./src/assets/icons/Chevron Down.svg">
                     </div>
                     <div class="dropdown-filters">
                         <span>Agrupar por
-                            <img src="./src/assets/icons/Chevron Down.svg">
+                            <img class="fa-chevron-down" src="./src/assets/icons/Chevron Down.svg">
                         </span>                    
                     </div>
                 </div>
@@ -639,17 +651,17 @@
                     </p>
                 </div>
             </div> -->
-           <!-- Content Notificaciones  -->
+           <!-- Content Notificaciones -->
             <div class="content">
                 <div class="controls">
                     <div class="dropdown-filters">
-                        <span>Ordenar por</span>
+                        <a class="dropwdown-link">Ordenar por</a>
                         <img class="fa-chevron-down" src="./src/assets/icons/Chevron Down.svg">
                     </div>
                     <div class="dropdown-filters">
-                        <span>Agrupar por
+                        <a class="dropwdown-link"> Agrupar por
                             <img class="fa-chevron-down" src="./src/assets/icons/Chevron Down.svg">
-                        </span>                    
+                        </a>                    
                     </div>
                 </div>
                 <div class="card">

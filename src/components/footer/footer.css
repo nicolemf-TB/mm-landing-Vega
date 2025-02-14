@@ -13,6 +13,11 @@
     text-decoration: none;
 }
 
+.footer-link:hover {
+    color: #1C315C;
+    text-decoration: revert;
+}
+
 .footer-link img {
     margin-left: 0.25rem;
 }

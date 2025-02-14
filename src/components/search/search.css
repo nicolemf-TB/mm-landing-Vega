@@ -10,6 +10,7 @@
 
     }
     .search-input input {
+    font-family: "OpenSans";
     flex-grow: 1;
     padding: 0rem 1.5rem;
     font-size: 16px;
@@ -21,21 +22,32 @@
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
     color: var(--neutral_400, #747474 );
     }
-    
-    .search-bar button {
-    color: var(--Full-white, #FFF);
-    font-feature-settings: 'liga' off, 'clig' off;
-    padding: 12px 16px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 50px;
-    opacity: 0.6;
-    background-color: var(--brand_500,#003893);
 
-    /* Sombra modal */
-    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
+    .search-bar button {
+        color: var(--Full-white, #FFF);
+        font-feature-settings: 'liga' off, 'clig' off;
+        padding: 12px 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 3.125rem; /* Aplicado por defecto */
+        background: #003893; /* Aplicado por defecto */
+        box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10); /* Aplicado por defecto */
+        transition: 0.3s ease-in-out; /* Suaviza el cambio */
+        font-family: "OpenSans-SemiBold";
     }
+    
+
+
+    .search-bar button:hover {
+        border-radius: 3.125rem;
+        background: #1C315C;
+        box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.10);
+        opacity: 1; /* Ajusta la opacidad para mayor visibilidad */
+        transition: 0.3s ease-in-out; /* Suaviza el cambio */
+    }
+    
+
     .sidebar {
     width: 25%;
     background-color: var(--Full-white, #FFF);

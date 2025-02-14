@@ -6,6 +6,7 @@
     gap: 0.5rem;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: 1rem;
 }
 
     .cards-dic .card-select h3 {
@@ -32,3 +33,15 @@
         border: 1px solid #003893;
         background: var(--Full-white, #FFF);
     }
+    /* .cards-dic .card-d:hover {
+        border: 1px solid #1C315C;
+        background: #EBEBEB;
+        transition: 0.3s ease-in-out;
+    } */
+    .cards-dic .card-d h3:hover {
+        border: 1px solid #1C315C;  /* Nuevo borde */
+        background: #EBEBEB;        /* Nuevo fondo */
+        color: #1C315C;             /* Cambiar color de texto si es necesario */
+        transition: 0.3s ease-in-out; /* Suavizar la transición */
+    }
+    

@@ -39,9 +39,23 @@
         font-size: 24px;
         margin-top: 10px;
     }
-    .header .icons img {
+    .header .icons .not-icon {
         font-size: 24px;
         width: 1.5rem;
         height: 1.5rem;
         margin-left: 1.5rem;
+    }
+    .header .icons .not-key {
+        font-size: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .header .icons .not-icon:hover {
+        font-size: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 1.5rem;
+        color: #1C315C;
     }
