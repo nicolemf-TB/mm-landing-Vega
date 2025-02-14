@@ -9,12 +9,14 @@
     .novedades h2 {
         font-size: 20px;
         margin-bottom: 16px;
+        color: #47484A;
     }
     
     .novedades .cards {
         display: flex;
         gap: 24px;
         justify-content: space-between;
+        padding-top: 0.5rem;
     }
     .novedades .card {
         background-color:var(--Full-white, #FFF);
@@ -27,10 +29,10 @@
         padding-bottom: 0.5rem;
         justify-content: center;
         align-items: center;
-        /* flex-shrink: 0; */
         border-radius: 1rem;
         background: var(--Full-white, #FFF);
-        
+        transform: translateY(-0.8rem);
+        transition: transform .1s ease-out;     
         /* Elevation 3 - Vega */
         box-shadow: 0px 0px 0px 1px rgba(17, 20, 24, 0.10), 0px 2px 4px 0px rgba(17, 20, 24, 0.20), 0px 8px 24px 0px rgba(17, 20, 24, 0.20);
     }
@@ -72,8 +74,15 @@
         text-align: right;
     }
     .novedades .view-all a {
-        color: #2563eb;
+        color: #003893;
         text-decoration: none;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .novedades .view-all a:hover {
+        color: #003893;
+        text-decoration: revert;
         align-items: center;
         gap: 0.25rem;
     }

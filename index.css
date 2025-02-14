@@ -8,14 +8,18 @@
 /* Components styles */
 
 @import url('./src/components/cards/cards.css');
-@import url('./src/components/header/header.css');
-@import url('./src/components/search/search.css');
 @import url('./src/components/cards-dic/cards-dic.css');
-@import url('./src/components/sidebar/sidebar.css');
-@import url('./src/components/sidebar/sidebar.css');
-@import url('./src/components/footer/footer.css');
-@import url('./src/components/tabs/tabs.css');
 @import url('./src/components/content/content.css');
-@import url('./src/components/content-dom/content-dom.css');
 @import url('./src/components/content-data/content-data.css');
+@import url('./src/components/content-dic/content-dic.css');
+@import url('./src/components/content-dom/content-dom.css');
+@import url('./src/components/footer/footer.css');
+@import url('./src/components/header/header.css');
 @import url('./src/components/notifications/notifications.css');
+@import url('./src/components/search/search.css');
+@import url('./src/components/sidebar/sidebar.css');
+@import url('./src/components/tabs/tabs.css');
+
+
+
+

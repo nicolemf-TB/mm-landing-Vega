@@ -66,8 +66,16 @@
     .content .card .header-content .title {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 4px;
     }
+
+    .content .card .header-content .title .icon-content-header {
+        font-size: 16px;
+        color: #6b7280;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
     .content .card .header-content .title img {
         font-size: 16px;
         color: #6b7280;
@@ -195,14 +203,9 @@
         align-items: center;
         gap: 0.25rem;
     }
-    .content .card .header-content a {
-        color: #003893;
-        text-decoration: none;
-        font-family: "OpenSans";
+    .content .card .header-content h4 {
+        font-family: "OpenSans-Bold";
         font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.3125rem; 
     }
     .content .card p {
         font-size: 14px;

@@ -48,7 +48,7 @@
     }
     
 
-    .sidebar {
+    /* .sidebar {
     width: 25%;
     background-color: var(--Full-white, #FFF);
     padding: 16px;
@@ -64,15 +64,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    }
-    .sidebar .buttons button {
-    
-    padding: 8px 16px;
-    border: none;
-    border-radius: 16px;
-    cursor: pointer;
-    font-size: 14px;
-    }
+    } */
 
     .search-input {
         display: flex;

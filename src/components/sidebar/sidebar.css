@@ -34,7 +34,7 @@
         flex-wrap: wrap;
         gap: 8px;
     }
-    .sidebar .buttons button {   
+    .sidebar .buttons .button-secondary {   
         display: flex;
         height: 2.5rem;
         padding: 0.5rem 1rem;
@@ -44,7 +44,21 @@
         border-radius: 0.5rem;
         border: 1px solid #003893;
         color: #003893;
+        background-color: #F8F8F8;
     }
+
+    .sidebar .buttons .button-secondary:hover {   
+      display: flex;
+      height: 2.5rem;
+      padding: 0.5rem 1rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+      border-radius: 0.5rem;
+      border: 1px solid #003893;
+      color: #003893;
+      background-color: #EBEBEB;
+  }
 
     .sidebar .buttons .active {
         border-radius: 0.5rem;
@@ -53,6 +67,7 @@
         height: 2.5rem;
         padding: 0.5rem 1rem;
         height: 2.5rem;
+        color: #1C315C;
     }
 
     .sidebar .section-side {
